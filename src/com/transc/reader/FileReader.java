@@ -192,24 +192,24 @@ public class FileReader {
 		System.out.println("READER()"+captured_data.size());
 	}
 	
-	public static void main(String args[]){
-		String fake = "C:\\Users\\Deepanshu Jain\\Desktop\\Transcripts\\10CVU026 2nd.xls";
-		String fake2 = "C:\\Users\\Deepanshu Jain\\Desktop\\Transcripts\\btech.xls";
-		new FileReader(fake2);
-//		for(List<String> s: captured_data){
-//			for(String s1: s){
-//				System.out.print(s1+" ");
-//			}
-//			System.out.println();
-//		}
-
-//		for(Courses r:getCourses()){
+//	public static void main(String args[]){
+//		String fake = "C:\\Users\\Deepanshu Jain\\Desktop\\Transcripts\\10CVU026 2nd.xls";
+//		String fake2 = "C:\\Users\\Deepanshu Jain\\Desktop\\Transcripts\\btech.xls";
+//		new FileReader(fake2);
+////		for(List<String> s: captured_data){
+////			for(String s1: s){
+////				System.out.print(s1+" ");
+////			}
+////			System.out.println();
+////		}
+//
+////		for(Courses r:getCourses()){
+////			System.out.println(r);
+////		}
+//		
+//		for(Score r: getScores()){
 //			System.out.println(r);
 //		}
-		
-		for(Score r: getScores()){
-			System.out.println(r);
-		}
-	}
+//	}
 	
 }
